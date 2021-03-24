@@ -1,0 +1,49 @@
+  .navbar-custom {
+
+    background-color:lightseagreen;
+    height: 100px;
+   }
+
+    #nav-bar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+  .navbar-nav li {
+    padding: 0 10px;
+  }
+
+  .navbar-nav li a {
+    float: right;
+    text-align: left;
+    font-size: 17px;
+  }
+  #nav-bar ul li a:hover {
+    color: #FFFF00;
+  }
+
+
+  .nav-link {
+    color: black;
+    font-weight: 600;
+  }
+  .navbar-nav mr-auto {
+    float: right!important;
+  }
+
+  .navbar-toggler {
+    border: none!important;
+  }
+
+  @font-face {
+font-family: myFirstFont;
+src: url(sansation_light.woff);
+}
+
+  .navbar-brand {
+    color: #FFFF00!important;
+    font-size: 30px;
+    font-family : myFirstFont;
+    letter-spacing: 3px;
+  }
